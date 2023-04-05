@@ -41,7 +41,7 @@ function App() {
     const { area, rate, status } = value;
 
     axios
-      .post("https://api.cmlhost.com/chap/Backend/pages/area.php", {
+      .post("#", {
         area,
         rate,
         status,
